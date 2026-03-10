@@ -1,0 +1,486 @@
+
+===== P=1 T=8 (total=8 cores) =====
+--- Run 1 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 36.994 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 1
+Threads OpenMP/proc : 8
+Fourmis locales (rank 0) : 5000
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 1 processus × 8 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Processus MPI         : 1
+Threads OpenMP/proc   : 8
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            8559.415       1.712          82.030    
+Communication phéromones     758.249        0.152          7.267     
+Évaporation phéromones      1109.772       0.222          10.636    
+Mise à jour phéromones      6.258          0.001          0.060     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  10434.503      2.087          100.000   
+=============================================
+
+--- Run 2 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 36.059 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 1
+Threads OpenMP/proc : 8
+Fourmis locales (rank 0) : 5000
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 1 processus × 8 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Processus MPI         : 1
+Threads OpenMP/proc   : 8
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            8569.356       1.714          81.982    
+Communication phéromones     768.383        0.154          7.351     
+Évaporation phéromones      1107.383       0.221          10.594    
+Mise à jour phéromones      6.546          0.001          0.063     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  10452.698      2.091          100.000   
+=============================================
+
+--- Run 3 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 36.401 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 1
+Threads OpenMP/proc : 8
+Fourmis locales (rank 0) : 5000
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 1 processus × 8 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Processus MPI         : 1
+Threads OpenMP/proc   : 8
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            8554.906       1.711          82.051    
+Communication phéromones     761.498        0.152          7.304     
+Évaporation phéromones      1102.736       0.221          10.576    
+Mise à jour phéromones      6.392          0.001          0.061     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  10426.353      2.085          100.000   
+=============================================
+
+===== P=2 T=4 (total=8 cores) =====
+--- Run 1 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 36.025 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 2
+Threads OpenMP/proc : 4
+Fourmis locales (rank 0) : 2500
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 2 processus × 4 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2651
+Processus MPI         : 2
+Threads OpenMP/proc   : 4
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            4702.473       0.940          50.349    
+Communication phéromones     3019.281       0.604          32.327    
+Évaporation phéromones      1601.211       0.320          17.144    
+Mise à jour phéromones      9.023          0.002          0.097     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  9339.711       1.868          100.000   
+=============================================
+
+--- Run 2 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 36.618 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 2
+Threads OpenMP/proc : 4
+Fourmis locales (rank 0) : 2500
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 2 processus × 4 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2651
+Processus MPI         : 2
+Threads OpenMP/proc   : 4
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            4716.569       0.943          50.214    
+Communication phéromones     3048.384       0.610          32.454    
+Évaporation phéromones      1608.979       0.322          17.130    
+Mise à jour phéromones      9.039          0.002          0.096     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  9393.017       1.879          100.000   
+=============================================
+
+--- Run 3 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 36.388 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 2
+Threads OpenMP/proc : 4
+Fourmis locales (rank 0) : 2500
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 2 processus × 4 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2651
+Processus MPI         : 2
+Threads OpenMP/proc   : 4
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            4643.822       0.929          50.810    
+Communication phéromones     2885.867       0.577          31.575    
+Évaporation phéromones      1595.442       0.319          17.456    
+Mise à jour phéromones      8.411          0.002          0.092     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  9139.631       1.828          100.000   
+=============================================
+
+===== P=4 T=2 (total=8 cores) =====
+--- Run 1 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 35.813 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 4
+Threads OpenMP/proc : 2
+Fourmis locales (rank 0) : 1250
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 4 processus × 2 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2651
+Processus MPI         : 4
+Threads OpenMP/proc   : 2
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            1949.631       0.390          17.912    
+Communication phéromones     5270.455       1.054          48.421    
+Évaporation phéromones      3611.321       0.722          33.178    
+Mise à jour phéromones      11.478         0.002          0.105     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  10884.577      2.177          100.000   
+=============================================
+
+--- Run 2 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 35.892 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 4
+Threads OpenMP/proc : 2
+Fourmis locales (rank 0) : 1250
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 4 processus × 2 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2651
+Processus MPI         : 4
+Threads OpenMP/proc   : 2
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            1705.879       0.341          15.141    
+Communication phéromones     5741.324       1.148          50.960    
+Évaporation phéromones      3766.240       0.753          33.429    
+Mise à jour phéromones      11.573         0.002          0.103     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  11266.361      2.253          100.000   
+=============================================
+
+--- Run 3 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 35.504 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 4
+Threads OpenMP/proc : 2
+Fourmis locales (rank 0) : 1250
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 4 processus × 2 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2651
+Processus MPI         : 4
+Threads OpenMP/proc   : 2
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            2142.152       0.428          19.392    
+Communication phéromones     5206.618       1.041          47.132    
+Évaporation phéromones      3644.016       0.729          32.987    
+Mise à jour phéromones      11.462         0.002          0.104     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  11046.826      2.209          100.000   
+=============================================
+
+===== P=2 T=2 (total=4 cores) =====
+--- Run 1 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 36.791 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 2
+Threads OpenMP/proc : 2
+Fourmis locales (rank 0) : 2500
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 2 processus × 2 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2651
+Processus MPI         : 2
+Threads OpenMP/proc   : 2
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            4561.318       0.912          50.718    
+Communication phéromones     2834.115       0.567          31.513    
+Évaporation phéromones      1585.536       0.317          17.630    
+Mise à jour phéromones      8.383          0.002          0.093     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  8993.559       1.799          100.000   
+=============================================
+
+--- Run 2 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 36.675 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 2
+Threads OpenMP/proc : 2
+Fourmis locales (rank 0) : 2500
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 2 processus × 2 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2651
+Processus MPI         : 2
+Threads OpenMP/proc   : 2
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            4573.835       0.915          51.022    
+Communication phéromones     2821.818       0.564          31.478    
+Évaporation phéromones      1555.903       0.311          17.356    
+Mise à jour phéromones      8.589          0.002          0.096     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  8964.491       1.793          100.000   
+=============================================
+
+--- Run 3 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 36.333 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 2
+Threads OpenMP/proc : 2
+Fourmis locales (rank 0) : 2500
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 2 processus × 2 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2651
+Processus MPI         : 2
+Threads OpenMP/proc   : 2
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            4504.974       0.901          50.805    
+Communication phéromones     2787.121       0.557          31.432    
+Évaporation phéromones      1563.257       0.313          17.630    
+Mise à jour phéromones      8.395          0.002          0.095     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  8867.163       1.773          100.000   
+=============================================
+
+===== P=4 T=1 (total=4 cores) =====
+--- Run 1 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 37.121 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 4
+Threads OpenMP/proc : 1
+Fourmis locales (rank 0) : 1250
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 4 processus)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2651
+Processus MPI         : 4
+Threads OpenMP/proc   : 1
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            2526.322       0.505          22.811    
+Communication phéromones     4861.757       0.972          43.898    
+Évaporation phéromones      3622.055       0.724          32.704    
+Mise à jour phéromones      10.036         0.002          0.091     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  11075.248      2.215          100.000   
+=============================================
+
+--- Run 2 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 35.941 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 4
+Threads OpenMP/proc : 1
+Fourmis locales (rank 0) : 1250
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 4 processus)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2651
+Processus MPI         : 4
+Threads OpenMP/proc   : 1
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            2528.726       0.506          22.801    
+Communication phéromones     4885.222       0.977          44.049    
+Évaporation phéromones      3619.310       0.724          32.635    
+Mise à jour phéromones      10.203         0.002          0.092     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  11090.372      2.218          100.000   
+=============================================
+
+--- Run 3 ---
+=== Mesure des performances (MPI) ===
+Génération du terrain fractal : 35.476 ms
+Grille : 513 x 513
+Nombre de fourmis total : 5000
+Processus MPI : 4
+Threads OpenMP/proc : 1
+Fourmis locales (rank 0) : 1250
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (MPI, 4 processus)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2651
+Processus MPI         : 4
+Threads OpenMP/proc   : 1
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            2543.992       0.509          22.750    
+Communication phéromones     4972.912       0.995          44.471    
+Évaporation phéromones      3604.084       0.721          32.230    
+Mise à jour phéromones      11.021         0.002          0.099     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  11182.348      2.236          100.000   
+=============================================
+

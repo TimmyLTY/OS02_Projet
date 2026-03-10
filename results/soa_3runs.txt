@@ -1,0 +1,78 @@
+=== Run 1 ===
+=== Mesure des performances (vectorisation SoA) ===
+Génération du terrain fractal : 38.123 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (version SoA)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            8441.495       1.688          93.754    
+Évaporation phéromones      557.795        0.112          6.195     
+Mise à jour phéromones      4.423          0.001          0.049     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  9003.877       1.801          100.000   
+=============================================
+
+=== Run 2 ===
+=== Mesure des performances (vectorisation SoA) ===
+Génération du terrain fractal : 35.084 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (version SoA)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            8439.130       1.688          93.781    
+Évaporation phéromones      555.298        0.111          6.171     
+Mise à jour phéromones      4.177          0.001          0.046     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  8998.766       1.800          100.000   
+=============================================
+
+=== Run 3 ===
+=== Mesure des performances (vectorisation SoA) ===
+Génération du terrain fractal : 35.700 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (version SoA)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            8442.611       1.689          93.776    
+Évaporation phéromones      555.763        0.111          6.173     
+Mise à jour phéromones      4.462          0.001          0.050     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  9002.992       1.801          100.000   
+=============================================
+

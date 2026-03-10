@@ -1,0 +1,425 @@
+======== Threads = 1 ========
+--- Run 1 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 36.792 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 1
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 1 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 1
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            8357.162       1.671          91.882    
+Évaporation phéromones      733.968        0.147          8.069     
+Mise à jour phéromones      4.292          0.001          0.047     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  9095.585       1.819          100.000   
+=============================================
+
+--- Run 2 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 35.858 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 1
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 1 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 1
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            8367.566       1.674          91.880    
+Évaporation phéromones      734.987        0.147          8.071     
+Mise à jour phéromones      4.351          0.001          0.048     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  9107.062       1.821          100.000   
+=============================================
+
+--- Run 3 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 35.777 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 1
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 1 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 1
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            8369.873       1.674          91.853    
+Évaporation phéromones      737.822        0.148          8.097     
+Mise à jour phéromones      4.379          0.001          0.048     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  9112.251       1.822          100.000   
+=============================================
+
+======== Threads = 2 ========
+--- Run 1 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 35.915 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 2
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 2 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 2
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            4279.712       0.856          91.382    
+Évaporation phéromones      396.729        0.079          8.471     
+Mise à jour phéromones      6.616          0.001          0.141     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  4683.319       0.937          100.000   
+=============================================
+
+--- Run 2 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 34.693 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 2
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 2 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 2
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            4290.136       0.858          90.884    
+Évaporation phéromones      422.575        0.085          8.952     
+Mise à jour phéromones      7.441          0.001          0.158     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  4720.465       0.944          100.000   
+=============================================
+
+--- Run 3 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 33.818 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 2
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 2 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 2
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            4322.780       0.865          91.082    
+Évaporation phéromones      414.836        0.083          8.741     
+Mise à jour phéromones      8.074          0.002          0.170     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  4746.030       0.949          100.000   
+=============================================
+
+======== Threads = 4 ========
+--- Run 1 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 35.752 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 4
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 4 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 4
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            2236.713       0.447          89.459    
+Évaporation phéromones      253.453        0.051          10.137    
+Mise à jour phéromones      9.558          0.002          0.382     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  2500.266       0.500          100.000   
+=============================================
+
+--- Run 2 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 35.900 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 4
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 4 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 4
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            2231.322       0.446          88.969    
+Évaporation phéromones      266.572        0.053          10.629    
+Mise à jour phéromones      9.469          0.002          0.378     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  2507.980       0.502          100.000   
+=============================================
+
+--- Run 3 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 34.796 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 4
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 4 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 4
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            2249.613       0.450          89.014    
+Évaporation phéromones      267.342        0.053          10.578    
+Mise à jour phéromones      9.696          0.002          0.384     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  2527.244       0.505          100.000   
+=============================================
+
+======== Threads = 8 ========
+--- Run 1 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 34.760 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 8
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 8 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 8
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            1364.162       0.273          81.286    
+Évaporation phéromones      299.007        0.060          17.817    
+Mise à jour phéromones      14.420         0.003          0.859     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  1678.225       0.336          100.000   
+=============================================
+
+--- Run 2 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 35.737 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 8
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 8 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 8
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            1557.932       0.312          78.973    
+Évaporation phéromones      397.663        0.080          20.158    
+Mise à jour phéromones      16.549         0.003          0.839     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  1972.738       0.395          100.000   
+=============================================
+
+--- Run 3 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 35.652 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 8
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 8 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 8
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            1328.854       0.266          82.616    
+Évaporation phéromones      264.308        0.053          16.432    
+Mise à jour phéromones      14.757         0.003          0.917     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  1608.462       0.322          100.000   
+=============================================
+
+======== Threads = 12 ========
+--- Run 1 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 35.579 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 12
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 12 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 12
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            2138.553       0.428          64.665    
+Évaporation phéromones      1147.500       0.230          34.698    
+Mise à jour phéromones      20.399         0.004          0.617     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  3307.100       0.661          100.000   
+=============================================
+
+--- Run 2 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 35.659 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 12
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 12 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 12
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            2190.142       0.438          64.401    
+Évaporation phéromones      1187.398       0.237          34.915    
+Mise à jour phéromones      22.528         0.005          0.662     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  3400.812       0.680          100.000   
+=============================================
+
+--- Run 3 ---
+=== Mesure des performances (OpenMP) ===
+Génération du terrain fractal : 36.262 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Threads OpenMP : 12
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (OpenMP, 12 threads)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+Threads OpenMP        : 12
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            2442.924       0.489          64.551    
+Évaporation phéromones      1316.877       0.263          34.797    
+Mise à jour phéromones      24.081         0.005          0.636     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  3784.480       0.757          100.000   
+=============================================
+

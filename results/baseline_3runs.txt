@@ -1,0 +1,78 @@
+=== Run 1 ===
+=== Mesure des performances séquentielles ===
+Génération du terrain fractal : 39.790 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (version séquentielle)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            8482.737       1.697          93.795    
+Évaporation phéromones      556.583        0.111          6.154     
+Mise à jour phéromones      4.396          0.001          0.049     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  9043.880       1.809          100.000   
+=============================================
+
+=== Run 2 ===
+=== Mesure des performances séquentielles ===
+Génération du terrain fractal : 34.898 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (version séquentielle)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            8491.640       1.698          93.818    
+Évaporation phéromones      554.999        0.111          6.132     
+Mise à jour phéromones      4.302          0.001          0.048     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  9051.179       1.810          100.000   
+=============================================
+
+=== Run 3 ===
+=== Mesure des performances séquentielles ===
+Génération du terrain fractal : 35.842 ms
+Grille : 513 x 513
+Nombre de fourmis : 5000
+Mode benchmark : 5000 itérations
+Mode headless : oui
+----------------------------------------------
+La première nourriture est arrivée au nid a l'iteration 2942
+
+=============================================
+  RAPPORT DE PERFORMANCE (version séquentielle)
+=============================================
+Itérations effectuées : 5000
+Nourriture collectée  : 2440
+---------------------------------------------
+Composant                     Total (ms)     Moy/iter (ms)  %         
+---------------------------------------------
+Avancement fourmis            8501.131       1.700          93.805    
+Évaporation phéromones      556.785        0.111          6.144     
+Mise à jour phéromones      4.471          0.001          0.049     
+Rendu graphique               0.000          0.000          0.000     
+---------------------------------------------
+TOTAL boucle                  9062.551       1.813          100.000   
+=============================================
+
