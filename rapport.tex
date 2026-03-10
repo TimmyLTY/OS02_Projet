@@ -196,9 +196,28 @@ Graine aléatoire             & ---          & 2026 \\
 \label{tab:params}
 \end{table}
 
+
+\subsection{Interface graphique de la simulation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.82\textwidth]{Ant_Simulation.png}
+    \caption{Interface graphique de la simulation ACO après convergence (513$\times$513, 5000 fourmis).
+    \textbf{Gauche} : terrain fractal en niveaux de gris, points cyan = fourmis en exploration.
+    \textbf{Droite} : carte de phéromones superposée — vert = phéromones de retour au nid
+    (depuis la nourriture), rouge = phéromones d'aller (depuis le nid) ; la concentration
+    élevée révèle le chemin optimal convergé.
+    \textbf{Bas} : courbe jaune de collecte cumulée, montrant la phase d'exploration plate puis la montée abrupte après découverte du chemin (itération 2942).}
+    \label{fig:gui}
+\end{figure}
+
+
 \subsection{Protocole de mesure}
 
 Le code est instrumenté avec \texttt{std::chrono::high\_resolution\_clock} pour mesurer séparément : l'avancement des fourmis, l'évaporation ($\times\beta$) et la mise à jour des buffers. Le mode \texttt{-{}-headless} désactive le rendu SDL (qui représente 86\% du temps en mode graphique) pour mesurer uniquement le calcul.
+
+
+
 
 \subsection{Baseline séquentielle}
 
@@ -912,7 +931,7 @@ Pour la reproductibilité complète, les fichiers suivants doivent être inclus 
     & \texttt{results/*.png}           & Figures générées \\
 \midrule
 Rapport
-    & \texttt{rapport.tex}            & Ce document \\
+    & \texttt{rapport.pdf}            & Rapport \\
 \bottomrule
 \end{tabular}
 \caption{Fichiers nécessaires à la soumission}
