@@ -75,6 +75,11 @@ OS02_Projet/
 
 **Environnement testé :** OrbStack Ubuntu 22.04 (aarch64, 12 cœurs ARM), GCC 11.4, OpenMPI, SDL2 2.0.20.
 
+⚠️ Les expériences ont été conduites sur MacBook M4 Pro (12 cœurs).
+
+> **Pour reproduire avec un nombre de cœurs différent, adapter les valeurs de `-t` (OpenMP) et `-np` (MPI) en conséquence.**
+> Les tendances qualitatives restent valables indépendamment du matériel.
+
 ```bash
 # Installer les dépendances
 sudo apt install -y build-essential g++ libsdl2-dev openmpi-bin libopenmpi-dev
