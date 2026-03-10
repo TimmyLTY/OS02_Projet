@@ -22,11 +22,19 @@ Ce projet optimise un simulateur ACO (*Ant Colony Optimization*) sur une grille 
 
 ---
 
+## Rapport
+
+**Le rapport complet est directement sous forme PDF dans `rapport.pdf`.**
+
+On a aussi soumis une version `rapport.tex`.
+
+---
+
 ## Structure du dépôt
 
 ```
 OS02_Projet/
-├── rapport_v1.tex          # Rapport LaTeX complet
+├── rapport.pdf/.tex        # Rapport PDF/LaTeX complet
 ├── src/                    # Sources C++ (aucun binaire)
 │   ├── ant_simu.cpp        # Baseline séquentielle (AoS)
 │   ├── ant_simu_soa.cpp    # Version SoA
@@ -103,19 +111,6 @@ mpirun -np 8 --oversubscribe ./ant_simu_mpi2.exe --headless -n 5000 -t 1
 # MPI méthode 2 hybride (P=6, T=2 — meilleur global MPI)
 mpirun -np 6 --oversubscribe ./ant_simu_mpi2.exe --headless -n 5000 -t 2
 ```
-
----
-
-## Rapport
-
-Le rapport complet est dans `rapport_v1.tex`. Compiler avec :
-
-```bash
-pdflatex rapport_v1.tex
-pdflatex rapport_v1.tex   # 2e passe pour la table des matières
-```
-
-Ou importer directement sur [Overleaf](https://www.overleaf.com) avec le dossier `results/` pour les figures.
 
 ---
 
